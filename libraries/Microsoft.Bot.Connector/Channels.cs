@@ -19,5 +19,6 @@ namespace Microsoft.Bot.Connector
         public const string Webchat = "webchat";
         public const string Console = "console";
         public const string Cortana = "cortana";
+        public const string Line = "line";
     }
 }

@@ -23,6 +23,7 @@ namespace Microsoft.Bot.Builder.Dialogs.Choices
                 case Connector.Channels.Emulator:
                 case Connector.Channels.Directline:
                 case Connector.Channels.Webchat:
+                case Connector.Channels.Line:
                     return buttonCnt <= 100;
 
                 default:
@@ -44,6 +45,7 @@ namespace Microsoft.Bot.Builder.Dialogs.Choices
                 case Connector.Channels.Directline:
                 case Connector.Channels.Webchat:
                 case Connector.Channels.Cortana:
+                case Connector.Channels.Line:
                     return buttonCnt <= 100;
 
                 default:
